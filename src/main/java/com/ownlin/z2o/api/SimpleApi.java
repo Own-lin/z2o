@@ -10,6 +10,6 @@ public class SimpleApi implements SimpleApiClient {
 
     @Override
     public String helloOpenFeign() {
-        return "Hello OpenFeign!";
+        return "It's random number: " + Math.random();
     }
 }
