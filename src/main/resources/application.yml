@@ -1,0 +1,10 @@
+server:
+  servlet:
+    # 声明请求当前服务接口时的前缀
+    context-path: /z2o
+  # 声明请求当前服务接口时的端口, 默认8080
+  port: 8000
+
+spring:
+  application:
+    name: z2o
