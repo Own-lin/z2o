@@ -13,6 +13,7 @@ spring:
       discovery:
         enabled: true
         server-addr: 120.77.239.177:8848
+        group: own_lin
 
 graceful-response:
   default-success-code: 200
