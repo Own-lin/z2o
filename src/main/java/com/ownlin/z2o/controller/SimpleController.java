@@ -10,9 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/simple")
 public class SimpleController {
 
+    @Resource private SimpleControllerClient simpleControllerClient;
+
     @GetMapping("/hello/spring_boot")
     public String helloSpringBoot() {
         return "Hello Spring Boot!";
+    }
+
+
+    @GetMapping("/hello/feign")
+    public String helloFeign() {
+        return simpleControllerClient.helloSpringBoot();
     }
 
 }
