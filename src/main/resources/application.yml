@@ -8,3 +8,10 @@ server:
 spring:
   application:
     name: z2o
+
+graceful-response:
+  default-success-code: 200
+  default-error-code: 500
+  default-validate-error-code: 400
+  response-style: 1
+

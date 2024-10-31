@@ -68,6 +68,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.feiniaojin</groupId>
+            <artifactId>graceful-response</artifactId>
+            <version>5.0.4-boot3</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
