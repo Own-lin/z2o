@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(
     contextId = "SimpleApiClient",
     value = "z2o",
-    path = "/z2o/simple/api",
-    url = "localhost:${server.port:8080}")
+    path = "/z2o/simple/api")
 public interface SimpleApiClient {
 
   @GetMapping("/hello/open_feign")

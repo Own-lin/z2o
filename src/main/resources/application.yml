@@ -8,6 +8,11 @@ server:
 spring:
   application:
     name: z2o
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 120.77.239.177:8848
 
 graceful-response:
   default-success-code: 200
